@@ -1,0 +1,62 @@
+DOCUMENTACION DE RUST
+Autor Leonardo Correa
+
+Resumen
+Este repositorio inicia una base para documentar Rust con Cargo.
+
+Estructura del repositorio
+Cargo.toml define el paquete documentacion_rust version 0.1.0 con edition 2026.
+src/lib.rs es el punto de entrada de la biblioteca y esta vacio.
+examples/Demo.rs es un ejemplo para ejecucion con cargo run --example Demo y esta vacio.
+docs/Intro.ipynb y docs/Modulo1.ipynb son cuadernos preparados para teoria y practicas.
+
+Requisitos
+Rust instalado con rustup.
+Cargo disponible en la terminal.
+
+Comandos basicos
+Crear un proyecto
+cargo new nombre_proyecto
+
+Compilar
+cargo build
+
+Ejecutar pruebas
+cargo test
+
+Ejecutar un ejemplo
+cargo run --example Demo
+
+Conceptos base de Rust
+Propiedad y prestamos
+Cada valor tiene un propietario.
+Los prestamos permiten referencias sin mover el valor.
+Las reglas evitan referencias colgantes.
+
+Mutabilidad
+Por defecto las variables son inmutables.
+Agregar mut permite modificar el valor.
+
+Tipos
+Enteros i32 i64 u32 u64.
+Flotantes f32 f64.
+Booleanos bool.
+Caracter char.
+Cadenas String y &str.
+
+Control de flujo
+if else
+loop while for
+match para patrones
+
+Errores
+Result para errores recuperables.
+Option para valores opcionales.
+
+Siguientes pasos sugeridos para este repositorio
+Agregar contenido a src/lib.rs con funciones publicas.
+Crear ejemplos en examples/Demo.rs.
+Llenar docs/Intro.ipynb y docs/Modulo1.ipynb con teoria y ejercicios.
+
+Fin
+Leonardo Correa
